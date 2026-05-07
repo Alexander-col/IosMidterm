@@ -20,7 +20,6 @@ class SecondTableViewController: UITableViewController {
         tableView.rowHeight = 80
     }
     //Create each cell to have the paired image and name
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return backgrounds.count
